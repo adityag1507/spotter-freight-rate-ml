@@ -1,0 +1,23 @@
+{
+  "validation_rows": 12000,
+  "validation_columns": [
+    "load_id",
+    "predicted_rate"
+  ],
+  "template_rows": 12000,
+  "ids_match_template_order": true,
+  "positive_validation_predictions": true,
+  "finite_validation_predictions": true,
+  "december_rows": 31,
+  "december_columns": [
+    "pickup",
+    "delivery",
+    "distance",
+    "equipment",
+    "weight",
+    "date",
+    "predicted_rate"
+  ],
+  "positive_december_predictions": true,
+  "december_dates_complete": true
+}
